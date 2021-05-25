@@ -32,6 +32,14 @@ $('.grid').masonry({
 .grid-item { width: 980px; margin: 10px }
 .grid-item--width2 { width: 980px; }
 
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
 div.paper {
   clear: both;
   margin-top: 0.3em;
@@ -95,6 +103,7 @@ div.paper pre {
 
 
     <body>
+      <div id="wrapper">
         <br/>
             <div class="center-block grid-item--width2">
                     <div>
@@ -268,5 +277,6 @@ title = {Edge-Based Multi-Class Object Proposal for On-Road Object Detection},
 
                     </div>
                 </div>
+      </div>
     </body>
 </html>
